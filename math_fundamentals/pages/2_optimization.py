@@ -28,7 +28,7 @@ with st.sidebar:
     st.header("Optimization Settings")
 
     # Optimizer selector
-    optimizer_names = sorted(all_optimizers.keys())
+    optimizer_names = reversed(sorted(all_optimizers.keys()))
     selected_optimizer_name = st.selectbox(
         "Choose optimizer",
         optimizer_names,
@@ -46,7 +46,7 @@ with st.sidebar:
         scale = st.slider("Scale", 0.1, 5.0, 1.0, 0.1)
         optimizer_params = {"scale": scale}
     elif selected_optimizer_name == "gradient_ascent":
-        step_size = st.slider("Step size", 0.001, 0.1, 0.01, 0.001)
+        step_size = st.slider("Step size", 0.001, 1.0, 0.01, 0.001)
         optimizer_params = {"step_size": step_size}
     else:
         optimizer_params = {}
