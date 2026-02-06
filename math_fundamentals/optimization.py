@@ -1,6 +1,14 @@
 """Optimization module.
 
 Defines some simple optimization algorithms.
+
+Let's go through the different inputs to the optimization algorithm:
+
+- `function`: The function that needs to be optimized
+- `starting_point`: Initial solution which the algorithms iteratively updates
+- `steps`: Number of times to perform the update
+
+Additionally, each algorithm might contain additional arguments that change its internals.
 """
 
 from typing import Callable
@@ -22,6 +30,8 @@ def hill_climbing(
     - If better, set that point as the current point
 
     Terminate after the specified number of steps (default 100).
+
+    The argument `scale` determines how far away from the current point to select candidates from.
     """
     # Evaluate the current solution (the starting point)
     current = starting_point
@@ -54,6 +64,8 @@ def gradient_ascent(
     - Move upwards according to the slope and proportional to how steep the slope is
 
     Terminate after the specified number of steps (default 100).
+
+    The argument `step_size` determines how big the update should be on each iteration.
     """
     def slope(
         function: Callable[[float], float],
