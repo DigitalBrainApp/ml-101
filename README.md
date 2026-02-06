@@ -60,3 +60,10 @@ For installation, follow the [official instructions](https://code.visualstudio.c
 After installing, use it to open the `ml-101` folder.
 
 > `File` > `Open Folder` > Search and open `ml-101`
+
+## Table of Contents
+
+1. [Math fundamentals](/math)
+2. (Tentative) What is training?
+3. (Tentative) Measure of success
+4. (Tentative) LLMs
