@@ -18,7 +18,7 @@ This will launch a Streamlit app in your browser with multiple pages for differe
 
 **Page:**  [Function Visualizer](http://localhost:8501/functions)
 
-Start here to understand the concept of functions. A function `f` takes an input (x) and produces an output (f(x)).
+Start here to understand the concept of functions. A function `f` takes an input (`x`) and produces an output (`f(x)`).
 
 **What to explore:**
 - Select different functions from the sidebar (`f`, `square`, `sqrt`, `cosine`)
@@ -49,13 +49,13 @@ Hill climbing is a simple optimization algorithm that explores randomly around t
 
 **What to try:**
 1. Select `hill_climbing` from the optimizer dropdown
-2. Set a starting point (try 0.0 first)
+2. Set a starting point (try `0.0` first)
 3. Adjust the `scale` parameter (controls how far it searches)
 4. Click `Run Optimization`
 5. Use the replay slider to watch the optimization process step-by-step
 
 **Experiments:**
-- Try different starting points (-10, 0, 10)
+- Try different starting points (`-10`, `0`, `10`)
 - Does it always find the global maximum?
 - Can you make it get stuck on the local maximum instead?
 - What happens with different scale values?
@@ -81,7 +81,7 @@ Derivatives are a concept from calculus we'll touch on in the next section. For 
 
 **Experiments:**
 - Compare gradient ascent vs. hill climbing from the same starting point
-- Try different step sizes (0.01 vs. 0.1 vs. 1.0)
+- Try different step sizes (`0.01` vs. `0.1` vs. `1.0`)
 - What happens if the step size is too large?
 - Does gradient ascent get stuck in local maxima?
 
