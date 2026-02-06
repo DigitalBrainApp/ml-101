@@ -119,5 +119,4 @@ The main algorithm used is gradient descent, though it has a few adaptations to 
 In this module, we worked with single variable functions. When optimizing neural networks we are optimizing many variables which interact in complex ways.
 
 ![Complex loss landscape of neural nets](./images/loss_landscape.png)
-*This image shows a visualization the loss landscape of a neural net. The height and color of the landscape represent values of the loss (red/high = high loss, blue/low = low loss)*
-
+*A neural network's loss landscape (2D slice shown in 3D). Like the single-variable function we optimized, it has peaks and valleys—but with thousands of dimensions instead of just one! Red/high = bad (high loss), blue/low = good (low loss). Gradient descent navigates this landscape to find the lowest valleys.*
