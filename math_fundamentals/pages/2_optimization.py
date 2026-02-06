@@ -34,6 +34,7 @@ with st.sidebar:
         optimizer_names,
         index=0
     )
+    st.markdown("Definitions available in [`math_fundamentals/optimization.py`](https://github.com/DigitalBrainApp/ml-101/blob/main/math_fundamentals/optimization.py).")
     selected_optimizer = all_optimizers[selected_optimizer_name]
 
     # Common parameters

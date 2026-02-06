@@ -29,7 +29,7 @@ x_values = np.linspace(x_min, x_max, num_points)
 # Sidebar for controls
 with st.sidebar:
     st.header("Function picker")
-    st.markdown("Definitions available in [`math_fundamentals/functions.py`](https://github.com/DigitalBrainApp/ml-101/blob/math_fundamentals/functions.py).")
+    st.markdown("Definitions available in [`math_fundamentals/functions.py`](https://github.com/DigitalBrainApp/ml-101/blob/main/math_fundamentals/functions.py).")
 
     # Function selector
     function_names = sorted(all_functions.keys())
