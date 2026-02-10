@@ -60,8 +60,8 @@ After you've installed `uv`, you can use it from your terminal to sync the proje
 uv sync
 ```
 
-### VS Code
-Visual Studio Code is the recommended code editor.
+### (Optional) VS Code
+Visual Studio Code is the recommended code editor. You only need this if you want to visualize the code locally, and potentially make changes to it. If you just want to read the code, the tutorials will have links pointing you to the code on the web.
 
 For installation, follow the [official instructions](https://code.visualstudio.com/docs/setup/mac).
 
@@ -71,7 +71,9 @@ After installing, use it to open the `ml-101-main` folder.
 
 ## Table of Contents
 
-1. [Math fundamentals](/math)
+Now that you've finished the setup, click on one of the topics below to get started!
+
+1. [Math fundamentals](/math_fundamentals)
 2. (Tentative) What is training?
 3. (Tentative) Measure of success
 4. (Tentative) LLMs

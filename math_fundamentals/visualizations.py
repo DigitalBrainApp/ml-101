@@ -18,5 +18,8 @@ st.markdown(
     The streamlit server is now running on your terminal.
 
     If you wish to stop it at any time, go back to your terminal and press `Ctrl + C`.
+
+    Follow along the course material on the [github page](https://github.com/DigitalBrainApp/ml-101/tree/main/math_fundamentals),
+    it will provide you with links to different parts of the streamlit application, which will work as long as you are running the server.
 """
 )

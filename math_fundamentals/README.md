@@ -4,7 +4,7 @@ Interactive journey to understand the mathematical foundations of machine learni
 
 ## Getting Started
 
-To run the interactive visualizations, use the following command from the project root:
+To run the interactive visualizations, run the following command from your terminal. This assumes your terminal is alreay located within the project directory.
 
 ```bash
 uv run streamlit run math_fundamentals/visualizations.py
