@@ -84,6 +84,7 @@ Derivatives are a concept from calculus we'll touch on in the next section. For 
 - Try different step sizes (`0.01` vs. `0.1` vs. `1.0`)
 - What happens if the step size is too large?
 - Does gradient ascent get stuck in local maxima?
+- On which areas of the function does gradient ascent take bigger vs. smaller steps?
 
 **Key concepts:**
 - Gradient = direction of steepest ascent
