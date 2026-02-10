@@ -66,7 +66,7 @@ Hill climbing is a simple optimization algorithm that explores randomly around t
 
 ### 4. Optimizing with Calculus: Gradient Ascent
 
-**Page:** 🎯 [Optimization Visualizer](http://localhost:8501/optimization)
+**Page:** [Optimization Visualizer](http://localhost:8501/optimization)
 
 Gradient ascent uses derivatives to climb uphill efficiently, following the steepest direction.
 
